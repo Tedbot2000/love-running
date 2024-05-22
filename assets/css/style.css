@@ -113,7 +113,20 @@ media screen and (min-width: 768px) {
     menu > li {
         padding-left: 1rem;
     }
+
     .nav toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75%;
+        margin: 0 0 0.5rem;
+    }
+
+    /* main content */
+    main {
+        /* push main content down to accomodate larger heard */
+        margin-top: 70px;
     }
 }
